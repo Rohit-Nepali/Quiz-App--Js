@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #d2d2d2;
+    height: 100vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quizBox{
+    background: #b3b3ae;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width: 40%;
+    border-radius: 20px 20px;
+}
+.quizBox h3{
+    background: #000000c2;
+    color: white;
+    padding: 12px;
+}
+#answer-buttons .btn{
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    flex-direction: column;
+    margin: 5px 0px 0px 10px;
+}
